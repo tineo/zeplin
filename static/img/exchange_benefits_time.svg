@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75">
+    <defs>
+        <style>
+            .cls-1,.cls-4{fill:none}.cls-1{stroke:#fff;stroke-width:2px}.cls-2{fill:#fff}.cls-3{stroke:none}
+        </style>
+    </defs>
+    <g id="Grupo_112" data-name="Grupo 112" transform="translate(-1267 -3476)">
+        <g id="Elipse_13" class="cls-1" data-name="Elipse 13" transform="translate(1267 3476)">
+            <circle cx="37.5" cy="37.5" r="37.5" class="cls-3"/>
+            <circle cx="37.5" cy="37.5" r="36.5" class="cls-4"/>
+        </g>
+        <g id="wall-clock" transform="translate(1286.041 3494.652)">
+            <g id="Grupo_42" data-name="Grupo 42" transform="translate(.001)">
+                <path id="Trazado_48" d="M18.309 0a18.308 18.308 0 1 0 18.308 18.308A18.329 18.329 0 0 0 18.309 0zm0 33.6A15.291 15.291 0 1 1 33.6 18.308 15.308 15.308 0 0 1 18.309 33.6z" class="cls-2" data-name="Trazado 48" transform="translate(-.001)"/>
+                <path id="Trazado_49" d="M176.59 72.133V61.765a1.508 1.508 0 1 0-3.016 0v10.968a1.5 1.5 0 0 0 .552 1.158c.014.017.024.036.038.053l5.656 6.422a1.509 1.509 0 0 0 2.264-1.995z" class="cls-2" data-name="Trazado 49" transform="translate(-156.774 -54.425)"/>
+            </g>
+        </g>
+    </g>
+</svg>

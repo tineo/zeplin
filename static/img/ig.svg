@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="instagram-logo" width="13.269" height="13.269" viewBox="0 0 13.269 13.269">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <path id="Trazado_29" d="M9.607 0H3.662A3.666 3.666 0 0 0 0 3.662v5.945a3.666 3.666 0 0 0 3.662 3.662h5.945a3.666 3.666 0 0 0 3.662-3.662V3.662A3.666 3.666 0 0 0 9.607 0zm2.485 9.607a2.487 2.487 0 0 1-2.485 2.484H3.662a2.487 2.487 0 0 1-2.485-2.484V3.662a2.487 2.487 0 0 1 2.485-2.485h5.945a2.487 2.487 0 0 1 2.485 2.484v5.946z" class="cls-1" data-name="Trazado 29"/>
+    <path id="Trazado_30" d="M44.387 40.97a3.419 3.419 0 1 0 3.419 3.419 3.423 3.423 0 0 0-3.419-3.419zm0 5.661a2.242 2.242 0 1 1 2.242-2.242 2.244 2.244 0 0 1-2.242 2.242z" class="cls-1" data-name="Trazado 30" transform="translate(-37.753 -37.754)"/>
+    <path id="Trazado_31" d="M119.784 28.251a.863.863 0 1 0 .611.253.867.867 0 0 0-.611-.253z" class="cls-1" data-name="Trazado 31" transform="translate(-109.587 -26.034)"/>
+</svg>

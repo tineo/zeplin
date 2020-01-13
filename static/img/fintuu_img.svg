@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.885" height="28.726" viewBox="0 0 24.885 28.726">
+    <defs>
+        <style>
+            .cls-1{fill:#0090df;fill-rule:evenodd}
+        </style>
+    </defs>
+    <g id="Grupo_18" data-name="Grupo 18" transform="translate(931.337 4235.568)">
+        <g id="Grupo_17" data-name="Grupo 17" transform="translate(-931.337 -4235.568)">
+            <path id="Trazado_4" d="M299.021 285.1l-2.357-1.361v12.476l-7.774 4.485-2.31-1.334 7.774-4.489V282.4l-.614-.354-1.784-1.03 2.31-1.334 4.839 2.794 2.226 1.285v9.754l-2.31 1.334V285.1z" class="cls-1" data-name="Trazado 4" transform="translate(-276.553 -271.974)"/>
+            <path id="Trazado_5" d="M241.426 225.211v2.722l10.8-6.238 7.774 4.488v2.667l-7.774-4.489-10.8 6.238v2.794l-2.31-1.334v-8.183l3.9-2.249 4.547-2.627 2.31 1.334-2.2 1.272-2.436 1.407-3.806 2.2z" class="cls-1" data-name="Trazado 5" transform="translate(-235.12 -219)"/>
+            <path id="Trazado_6" d="M216.11 282.949l2.357-1.361-10.8-6.238v-8.977l2.31-1.334v8.977l10.8 6.238.613-.354 1.763-1.018v2.667l-4.817 2.781-.233.135-1.993 1.151-1.993-1.151-.233-.135-1.67-.964-4.551-2.627v-2.668l2.2 1.273 2.436 1.406 3.806 2.2z" class="cls-1" data-name="Trazado 6" transform="translate(-207.663 -259.19)"/>
+        </g>
+    </g>
+</svg>

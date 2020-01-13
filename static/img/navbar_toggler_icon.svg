@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="14" viewBox="0 0 30 14">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#000;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="Grupo_85" data-name="Grupo 85" transform="translate(-19 -47)">
+        <path id="Línea_9" d="M0 0h30" class="cls-1" data-name="Línea 9" transform="translate(19 48)"/>
+        <path id="Línea_10" d="M0 0h30" class="cls-1" data-name="Línea 10" transform="translate(19 54)"/>
+        <path id="Línea_11" d="M0 0h30" class="cls-1" data-name="Línea 11" transform="translate(19 60)"/>
+    </g>
+</svg>
