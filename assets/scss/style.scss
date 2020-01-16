@@ -210,8 +210,19 @@ $secondary: #000;
 body{
   font-family: 'Sofia Pro';
   background-color: #fafafa;
-}
 
+
+  margin-top: 4.5rem ;
+  @include media-breakpoint-up(md) {
+    margin-top: 4.5rem ;
+  }
+  @include media-breakpoint-down(sm) {
+    margin-top: 50px;
+  
+   
+  }
+}
+q:before,q:after{content:''}
 .navbar-nav,
 .mr-auto ,.ml-auto {
 flex: 1;
@@ -801,4 +812,258 @@ input::-webkit-input-placeholder {
     
     
   }
+}
+
+h2{
+  font-weight: bold;
+  @include media-breakpoint-font-size( vw-mobile(25px), vw-desktop(50px));
+  @include media-breakpoint-line-height(  vw-mobile(35px), vw-desktop(55px));
+}
+
+blockquote{
+  font-weight: bold;
+  border-left: solid 3px #0090df;
+  padding-left: 16px;
+  padding-right: 47px;
+  @include media-breakpoint-font-size( vw-mobile(35px), vw-desktop(35px));
+  @include media-breakpoint-line-height(  vw-mobile(45px), vw-desktop(45px));
+  @include make-col-offset(1);
+  @include make-col(10);
+}
+
+.blog-title{
+  @include media-breakpoint-attr( padding-top ,vw-mobile(48px), vw-desktop(35px));
+  @include media-breakpoint-attr( padding-bottom ,vw-mobile(48px), vw-desktop(35px));
+  @include media-breakpoint-attr( padding-right ,vw-mobile(48px), vw-desktop(35px));
+}
+.header-img{
+  @include media-breakpoint-attr( height ,vw-mobile(618px), vw-desktop(618px));
+}
+
+.blog-content{
+  p{
+    color: #707070;
+    @include media-breakpoint-font-size( vw-mobile(20px), vw-desktop(20px));
+    @include media-breakpoint-line-height(  vw-mobile(30px), vw-desktop(30px));
+
+    @include media-breakpoint-attr(margin-bottom, vw-mobile(25px), vw-desktop(25px));
+    
+  }
+  p:first-child{
+    color: black;
+    @include media-breakpoint-font-size( vw-mobile(35px), vw-desktop(35px));
+    @include media-breakpoint-line-height(  vw-mobile(45px), vw-desktop(45px));
+
+  }
+  blockquote{
+    @include media-breakpoint-attr(margin-top, vw-mobile(75px), vw-desktop(75px));
+    @include media-breakpoint-attr(margin-bottom, vw-mobile(75px), vw-desktop(75px));
+  }
+  img{
+    margin:50px 0;
+  }
+}
+
+.blog-options{
+  color: #707070;
+  @include media-breakpoint-font-size( vw-mobile(20px), vw-desktop(20px));
+  @include media-breakpoint-line-height(  vw-mobile(31px), vw-desktop(31px));
+  padding-top: 70px;
+  padding-bottom: 15px;
+
+  margin-bottom: 50px;
+  border-bottom: solid 2px #d7d7d7;
+}
+.blog-datetime{
+
+}
+.blog-share{
+  margin-left: auto !important;
+  text-align: right;
+}
+
+.blog_author{
+  color: #444444;
+  margin: 0px 0 50px 0;
+  p{
+    @include media-breakpoint-font-size( vw-mobile(20px), vw-desktop(20px));
+    @include media-breakpoint-line-height(  vw-mobile(25px), vw-desktop(25px));
+  }
+}
+
+.fs-20{
+  @include media-breakpoint-font-size( vw-mobile(10px), vw-desktop(20px));
+} 
+.fs-25{
+  @include media-breakpoint-font-size( vw-mobile(18px), vw-desktop(22px));
+} 
+.lh-35{
+  @include media-breakpoint-line-height( vw-mobile(25px), vw-desktop(35px));
+}
+.fs-50{
+  @include media-breakpoint-font-size( vw-mobile(18px), vw-desktop(50px));
+}
+.lh-100{
+  @include media-breakpoint-line-height( vw-mobile(25px), vw-desktop(100px));
+}
+.container-mid{
+  background-size: cover;
+  @include media-breakpoint-height( vw-mobile(400px), vw-desktop(600px));
+
+  padding: 0 !important;
+  margin: 0 !important;
+  @include media-breakpoint-down(xs) {
+    padding-left: 0;
+    padding: 0 !important;
+    margin: 25px 0  !important;
+    h1, h5{
+      text-align: center;
+    }
+    .btn{
+      display: inherit;
+      margin: 0 auto;
+    }
+  }
+}
+
+.bg-grayf4{
+  background-color: #f4f4f4;
+}
+
+.bg-grayf4-70{
+  //background-repeat: repeat-y;
+  //background-size: 50% auto;
+  //background-color: #f4f4f4;
+
+  background-image: linear-gradient(180deg, #f4f4f4 50%, transparent 50%);
+}
+
+.py-50{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.pt-50{
+  padding-top: 50px;
+}
+.pb-50{
+  padding-bottom: 50px;
+}
+.py-100{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.container-mid-left{
+  @include media-breakpoint-down(xs) {
+    padding-right: 0;
+  }
+  @include media-breakpoint-between(xs, sm) {
+    padding-right: 0;
+  }
+  @include media-breakpoint-between(sm, md) {
+    padding-right: 0 ;
+  }
+  @include media-breakpoint-between(md, lg) {
+    //padding-right: ($desktop+$mobile)*0.5 *0.85;
+    padding-right: 0;
+  }
+  @include media-breakpoint-between(lg, xl) {
+    //padding-right: (3*$desktop+$mobile)*0.25 *0.85;
+    padding-right: 22px;
+  }
+  @include media-breakpoint-between(xl, xxl) {
+    //padding-right: (3*$desktop+$mobile)*0.25 *0.85;
+    padding-right: 30px;
+  }
+  @include media-breakpoint-between(xxl, xxxl) {
+    padding-right: 50px;
+  }
+  @include media-breakpoint-up(xxxl) {
+    padding-right: 50px;
+  }
+}
+.container-mid-right{
+  @include media-breakpoint-down(xs) {
+    padding-left: 0;
+  }
+  @include media-breakpoint-between(xs, sm) {
+    padding-left: 0;
+  }
+  @include media-breakpoint-between(sm, md) {
+    padding-left: 0;
+  }
+  @include media-breakpoint-between(md, lg) {
+    //padding-left: ($desktop+$mobile)*0.5 *0.85;
+    padding-left: 0;
+  }
+  @include media-breakpoint-between(lg, xl) {
+    //padding-left: (3*$desktop+$mobile)*0.25 *0.85;
+    padding-left: 22px;
+  }
+  @include media-breakpoint-between(xl, xxl) {
+    //padding-left: (3*$desktop+$mobile)*0.25 *0.85;
+    padding-left: 30px;
+  }
+  @include media-breakpoint-between(xxl, xxxl) {
+    padding-left: 50px;
+  }
+  @include media-breakpoint-up(xxxl) {
+    padding-left: 50px;
+  }
+}
+
+.container-marginless{
+  @include media-breakpoint-down(xl) {
+    .container{
+      //background-color: indigo;
+      margin: 0;
+      width: 100% !important;
+      max-width: none;
+    }
+  }
+}
+
+.blog-hero{
+  position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.page-link{
+ 
+   color: #707070;
+   //width: 50px;
+   //height: 50px;
+   padding: 0px 19.42px;
+   border-radius: 0px;
+   font-size: 18px;
+   line-height: 48px;
+
+   color: #707070;
+  border-color: #707070;
+  background-color: white;
+}
+.page-item{
+  margin: 5px;
+ 
+}
+.page-link:hover{
+  color: black;
+  border-color: black;
+  background-color: white;
+
+}
+.page-item.active .page-link{
+  background-color: black;
+  border-color: white;
+  font-weight: bold;
+}
+.bg-size-auto{
+  background-size: auto;
+}
+
+.middle{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); 
 }
