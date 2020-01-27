@@ -1,20 +1,43 @@
-var http = require('http'),
-    fs = require('fs')
-var port = process.env.PORT || 3000
-http.createServer(function (req, res) {
-    file.serve(req, res);
-  }).listen(8080);
-/*http.createServer(function(req, res) {
-    var url = './' + (req.url == '/' ? 'index.html' : req.url)
-    fs.readFile(url, function(err, html) {
-        if (err) {
-            var message404 = "There is no such page! <a href='/'>Back to home page</a>"
-            res.writeHead(404, {'Content-Type': 'text/html', 'Content-Length': message404.length})
-            res.write(message404)
-        } else {
-            res.writeHead(200, {'Content-Type': 'text/html', 'Content-Length': html.length})
-            res.write(html)
-        }
-        res.end()
-    })
-}).listen(port)*/
+const express = require('express');
+const app = express();
+const path = require('path');
+const router = express.Router();
+
+router.get('/',function(req,res){
+  res.sendFile(path.join(__dirname+'/index.html'));
+  //__dirname : It will resolve to your project folder.
+});
+
+router.get('/albus.html',function(req,res){
+  res.sendFile(path.join(__dirname+'/albus.html'));
+});
+
+router.get('/ayuda.html',function(req,res){
+  res.sendFile(path.join(__dirname+'/ayuda.html'));
+});
+
+
+router.get('/blog.html',function(req,res){
+    res.sendFile(path.join(__dirname+'/blog.html'));
+  });
+
+  
+router.get('/blogpost.html',function(req,res){
+    res.sendFile(path.join(__dirname+'/blogpost.html'));
+  });
+
+  
+  router.get('/exchange.html',function(req,res){
+    res.sendFile(path.join(__dirname+'/exchange.html'));
+  });
+  
+  router.get('/nosotros.html',function(req,res){
+      res.sendFile(path.join(__dirname+'/nosotros.html'));
+    });
+  
+//add the router
+app.use('/', router);
+
+app.use(express.static('static'));
+
+app.listen(3000);
