@@ -16,5 +16,8 @@
     "homepage": "https://github.com/Yankovsky/static-heroku-nodejs",
     "scripts": {
         "preinstall": "npm install --prefix assets && npm deploy --prefix assets"
+    },
+    "engines": {
+      "node": ">=10.15.0" 
     }
   }
