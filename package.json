@@ -15,7 +15,7 @@
     },
     "homepage": "https://github.com/Yankovsky/static-heroku-nodejs",
     "scripts": {
-        "preinstall": "npm install --prefix assets && npm deploy --prefix assets"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "engines": {
       "node": ">=10.15.0" 
