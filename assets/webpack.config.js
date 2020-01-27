@@ -130,5 +130,5 @@ module.exports = (env, options) => ({
         }
     }
   }*/
-  //watch: devMode ? true : false
+  watch: devMode ? true : false
 });
