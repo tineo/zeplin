@@ -2,7 +2,7 @@
   "name": "static-heroku-nodejs",
   "version": "0.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "_app.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/Yankovsky/static-heroku-nodejs.git"
@@ -20,6 +20,6 @@
     "node": ">=10.15.0"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.16.4""
   }
 }
