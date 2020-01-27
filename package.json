@@ -15,6 +15,6 @@
     },
     "homepage": "https://github.com/Yankovsky/static-heroku-nodejs",
     "scripts": {
-        "preinstall": "npm install --prefix assests && npm deploy --prefix assests"
+        "preinstall": "npm install --prefix assets && npm deploy --prefix assets"
     }
   }
