@@ -1,0 +1,20 @@
+{
+    "name": "static-heroku-nodejs",
+    "version": "0.0.0",
+    "description": "",
+    "main": "app.js",
+
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/Yankovsky/static-heroku-nodejs.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Yankovsky/static-heroku-nodejs/issues"
+    },
+    "homepage": "https://github.com/Yankovsky/static-heroku-nodejs",
+    "scripts": {
+        "preinstall": "npm install --prefix assests && npm deploy --prefix assests"
+    }
+  }

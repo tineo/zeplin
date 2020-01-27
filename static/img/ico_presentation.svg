@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47.258" height="47.318" viewBox="0 0 47.258 47.318">
+    <defs>
+        <style>
+            .cls-1{stroke:#000;stroke-width:.25px}
+        </style>
+    </defs>
+    <g id="presentation" transform="translate(-10.875 -10.875)">
+        <g id="Grupo_39" data-name="Grupo 39" transform="translate(11 11)">
+            <path id="Trazado_38" d="M58.008 12.65H35.5V11h-2v1.65H11v36.311h14.851l-4.96 7.934 1.679 1.122 5.66-9.047h12.577l5.66 9.037 1.679-1.122-4.96-7.924h14.822zm-1.9 34.25h-43.1V14.607h43.1z" class="cls-1" data-name="Trazado 38" transform="translate(-11 -11)"/>
+            <path id="Trazado_39" d="M85.9 107.8H71.5v21.038h14.4zm-2.005 18.976H73.5v-17.019h10.4z" class="cls-1" data-name="Trazado 39" transform="translate(-65.696 -98.514)"/>
+            <path id="Rectángulo_39" d="M0 0h13.603v2.063H0z" class="cls-1" data-name="Rectángulo 39" transform="translate(26.603 14.026)"/>
+            <path id="Rectángulo_40" d="M0 0h13.603v2.063H0z" class="cls-1" data-name="Rectángulo 40" transform="translate(26.603 23.523)"/>
+        </g>
+    </g>
+</svg>

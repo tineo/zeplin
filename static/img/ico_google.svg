@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.289" height="21.724" viewBox="0 0 21.289 21.724">
+    <defs>
+        <style>
+            .cls-1{clip-path:url(#clip-path)}.cls-2{fill:#3e82f1}.cls-3{clip-path:url(#clip-path-2)}.cls-4{fill:#32a753}.cls-5{clip-path:url(#clip-path-3)}.cls-6{fill:#f9bb00}.cls-7{clip-path:url(#clip-path-4)}.cls-8{fill:#e74133}
+        </style>
+        <clipPath id="clip-path">
+            <path id="Trazado_58" d="M287.337 246.762a12.446 12.446 0 0 0-.2-2.222H276.91v4.2h5.845a5 5 0 0 1-2.167 3.278v2.725h3.51a10.593 10.593 0 0 0 3.239-7.983zm0 0" data-name="Trazado 58" transform="translate(-276.91 -244.54)"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="Trazado_59" d="M127.537 319.528a10.369 10.369 0 0 0 7.188-2.632l-3.51-2.725a6.553 6.553 0 0 1-9.756-3.441h-3.629v2.814a10.857 10.857 0 0 0 9.707 5.984zm0 0" data-name="Trazado 59" transform="translate(-117.83 -310.73)"/>
+        </clipPath>
+        <clipPath id="clip-path-3">
+            <path id="Trazado_60" d="M103.684 203.911a6.424 6.424 0 0 1 0-4.127v-2.814h-3.629a10.877 10.877 0 0 0 0 9.755l3.629-2.814zm0 0" data-name="Trazado 60" transform="translate(-98.9 -196.97)"/>
+        </clipPath>
+        <clipPath id="clip-path-4">
+            <path id="Trazado_61" d="M127.537 103.21a5.867 5.867 0 0 1 4.152 1.624l3.116-3.116a10.44 10.44 0 0 0-7.268-2.829 10.857 10.857 0 0 0-9.707 5.984l3.629 2.814a6.474 6.474 0 0 1 6.078-4.478zm0 0" data-name="Trazado 61" transform="translate(-117.83 -98.89)"/>
+        </clipPath>
+    </defs>
+    <g id="Grupo_55" data-name="Grupo 55" transform="translate(-98.9 -98.89)">
+        <g id="Grupo_48" data-name="Grupo 48" transform="translate(109.762 107.777)">
+            <g id="Grupo_47" class="cls-1" data-name="Grupo 47">
+                <path id="XMLID_24_" d="M0 0h22.496v22.274H0z" class="cls-2" transform="translate(-6.035 -6.034)"/>
+            </g>
+        </g>
+        <g id="Grupo_50" data-name="Grupo 50" transform="translate(100.055 111.816)">
+            <g id="Grupo_49" class="cls-3" data-name="Grupo 49">
+                <path id="XMLID_21_" d="M0 0h28.963v20.866H0z" class="cls-4" transform="translate(-6.035 -6.035)"/>
+            </g>
+        </g>
+        <g id="Grupo_52" data-name="Grupo 52" transform="translate(98.9 104.875)">
+            <g id="Grupo_51" class="cls-5" data-name="Grupo 51">
+                <path id="XMLID_18_" d="M0 0h16.853v21.824H0z" class="cls-6" transform="translate(-6.035 -6.035)"/>
+            </g>
+        </g>
+        <g id="Grupo_54" data-name="Grupo 54" transform="translate(100.055 98.89)">
+            <g id="Grupo_53" class="cls-7" data-name="Grupo 53">
+                <path id="XMLID_15_" d="M0 0h29.042v20.866H0z" class="cls-8" transform="translate(-6.035 -6.034)"/>
+            </g>
+        </g>
+    </g>
+</svg>

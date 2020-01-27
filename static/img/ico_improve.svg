@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75">
+    <defs>
+        <style>
+            .cls-1,.cls-4{fill:none}.cls-1{stroke:#fff;stroke-width:2px}.cls-2{fill:#fff}.cls-3{stroke:none}
+        </style>
+    </defs>
+    <g id="Grupo_74" data-name="Grupo 74" transform="translate(-761 -3496)">
+        <g id="Elipse_9" class="cls-1" data-name="Elipse 9" transform="translate(761 3496)">
+            <circle cx="37.5" cy="37.5" r="37.5" class="cls-3"/>
+            <circle cx="37.5" cy="37.5" r="36.5" class="cls-4"/>
+        </g>
+        <g id="Grupo_41" data-name="Grupo 41" transform="translate(783 3517)">
+            <path id="Trazado_44" d="M71.8 118.233a1.348 1.348 0 0 0 1.891-.353l5.14-7.51 5.44 5.247a1.344 1.344 0 0 0 1.079.373 1.382 1.382 0 0 0 .985-.573l9.025-12.937.326 4.328a1.359 1.359 0 0 0 2.71-.206l-.573-7.61a1.354 1.354 0 0 0-1.458-1.252l-7.61.573a1.359 1.359 0 0 0 .206 2.71l4.328-.326-8.269 11.85-5.453-5.26a1.329 1.329 0 0 0-1.079-.373 1.351 1.351 0 0 0-.985.586l-6.052 8.842a1.36 1.36 0 0 0 .349 1.891z" class="cls-2" data-name="Trazado 44" transform="translate(-67.203 -91.96)"/>
+            <path id="Trazado_45" d="M42.267 40.908h-28.55v-28.55a1.358 1.358 0 0 0-2.717 0v29.909a1.355 1.355 0 0 0 1.358 1.358h29.909a1.358 1.358 0 0 0 0-2.717z" class="cls-2" data-name="Trazado 45" transform="translate(-11 -11)"/>
+        </g>
+    </g>
+</svg>
