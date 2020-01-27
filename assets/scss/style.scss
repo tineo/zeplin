@@ -286,7 +286,9 @@ display: flex;
     //padding: .5rem;
     .nav-link{
       padding: .5rem 2.5rem;
-      
+      @include media-breakpoint-down(xs) {
+        padding: 0rem 1rem;
+      }
     }
 
     a{
@@ -1303,15 +1305,21 @@ input[type=email].form-control, input[type=password].form-control
   background-color: black;
 }
 
+.nav-item:not(.nav-register){
+  .nav-link{
+
+  }
+}
 
 .nav-register{
   border: none;
   .nav-item{
     border: none;
   }
+  
   .nav-link{
     color: #d3d3d3;
-    @include  media-breakpoint-down(xl) {
+    @include  media-breakpoint-between(xl,xs) {
       padding: .5rem 2rem !important;
     }
   }
