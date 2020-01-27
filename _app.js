@@ -33,8 +33,11 @@ router.get('/blogpost.html',function(req,res){
   });
   
   router.get('/nosotros.html',function(req,res){
-      res.sendFile(path.join(__dirname+'/nosotros.html'));
-    });
+    res.sendFile(path.join(__dirname+'/nosotros.html'));
+  });  
+  router.get('/registrarme.html',function(req,res){
+    res.sendFile(path.join(__dirname+'/registrarme.html'));
+  });
   
 //add the router
 
