@@ -36,8 +36,9 @@ router.get('/blogpost.html',function(req,res){
     });
   
 //add the router
+
+app.use('/static', express.static(__dirname + '/static'));
 app.use('/', router);
 
-app.use(express.static('static'));
-
 app.listen(3000);
+console.log('Running at Port 3000');
