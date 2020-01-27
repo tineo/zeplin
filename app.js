@@ -1,7 +1,10 @@
 var http = require('http'),
     fs = require('fs')
 var port = process.env.PORT || 3000
-http.createServer(function(req, res) {
+http.createServer(function (req, res) {
+    file.serve(req, res);
+  }).listen(8080);
+/*http.createServer(function(req, res) {
     var url = './' + (req.url == '/' ? 'index.html' : req.url)
     fs.readFile(url, function(err, html) {
         if (err) {
@@ -14,4 +17,4 @@ http.createServer(function(req, res) {
         }
         res.end()
     })
-}).listen(port)
+}).listen(port)*/
