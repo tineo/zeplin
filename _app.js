@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const router = express.Router();
+const PORT = process.env.PORT || 5000
 
 router.get('/',function(req,res){
   res.sendFile(path.join(__dirname+'/index.html'));
@@ -40,5 +41,5 @@ router.get('/blogpost.html',function(req,res){
 app.use('/static', express.static(__dirname + '/static'));
 app.use('/', router);
 
-app.listen(3000);
-console.log('Running at Port 3000');
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
+
