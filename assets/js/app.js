@@ -1,6 +1,7 @@
 import '../node_modules/bootstrap';
 import '../node_modules/slick-carousel';
 
+import anime from 'animejs/lib/anime.es';
 
 //alert("123");
 $(function(){
@@ -113,6 +114,65 @@ $(".slick-track").addClass("row");
     })
 
 
+    if($('.ml3').length > 0){
 
+         // Wrap every letter in a span
+         var textWrapper = document.querySelector('.ml3');
+         console.log(textWrapper);
+         textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+         
+        
+         var textWrapper = document.querySelector('.ml13');
+         textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+         
+      
+         
+         anime.timeline()
+         /*.add({
+             targets: '.ml6 .letter',
+             translateY: ["1.1em", 0],
+             translateZ: 0,
+             duration: 750,
+             delay: (el, i) => 50 * i
+           })*/
+           /*
+         .add({
+             targets: '.ml4 .letter',
+             translateY: [-100,0],
+             easing: "easeOutExpo",
+             duration: 1400,
+             delay: (el, i) => 30 * i
+           })*/
+         .add({
+             targets: '.ml3 .letter',
+             opacity: [0,1],
+             easing: "easeInOutQuad",
+             duration: 750,
+             delay: (el, i) => 75 * (i+1)
+         })
+         .add({
+            targets: '.ml13 .letter',
+            translateY: [100,0],
+            translateZ: 0,
+            opacity: [0,1],
+            easing: "easeOutExpo",
+            duration: 1400,
+            delay: (el, i) => 300 + 30 * i
+          })
+         /*.add({
+             targets: '.ml4 .letter',
+             translateY: [-100,0],
+             easing: "easeOutExpo",
+             duration: 1400,
+             delay: (el, i) => 30 * i
+           })*/
+         /*.add({
+             targets: '.ml3',
+             opacity: 0,
+             duration: 1000,
+             easing: "easeOutExpo",
+             delay: 1000
+         })*/;
+    }
 });
 
