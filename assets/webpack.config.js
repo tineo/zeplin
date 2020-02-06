@@ -17,7 +17,9 @@ module.exports = (env, options) => ({
     ]
   },
   entry: {
-      app: ['./js/app.js'],//.concat(glob.sync('./vendor/**/*.js')),
+      index: ['./js/index.js'],
+      //app: ['./js/app.js'],//.concat(glob.sync('./vendor/**/*.js')),
+      //exchange: ['./js/exchange.js'],
       //accounts: ['./js/accounts.js'],
       style: ['./scss/style.scss'],
       //main: ['./css/main.css'],
@@ -35,7 +37,7 @@ module.exports = (env, options) => ({
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',

@@ -225,9 +225,9 @@ body{
 q:before,q:after{content:''}
 .navbar-nav,
 .mr-auto ,.ml-auto {
-flex: 1;
-margin: auto !important;
-display: flex;
+//flex: 1;
+//margin: auto !important;
+//display: flex;
 //justify-content: space-between;
 }
 
@@ -254,25 +254,40 @@ display: flex;
   }
 }
 
+.navbar-brand{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .navbar{
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-left: 0;
   //border-bottom: solid 1px #bcbcbc !important;
-  background-color: #ffffff;
-  height: 4.5rem ;
+  //background-color: #ffffff;
+  //height: 4.5rem ;
   @include media-breakpoint-up(md) {
-    height: 4.5rem ;
+    //height: 4.5rem ;
   }
   @include media-breakpoint-down(sm) {
     height: 50px;
     .container-xl{
-      height: 50px;
+      //height: 50px;
     }
    
   }
 
-
+  .nav-link{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    //padding-right: 1rem !important;
+    //padding-left: 1.5rem !important;
+  }
   .nav-item{
-    transition: ease-in-out color .35s;
+    //transition: ease-in-out color .35s;
     @include media-breakpoint-font-size( vw-mobile(15px), vw-desktop(16px));
+
 
     font-weight: normal;
     font-stretch: normal;
@@ -282,12 +297,12 @@ display: flex;
     letter-spacing: 1.6px;
     text-align: left;
     
-    height: 2.5rem;
+    //height: 2.5rem;
     //padding: .5rem;
     .nav-link{
-      padding: .5rem 2.5rem;
+      //padding: .5rem 2.5rem;
       @include media-breakpoint-down(xs) {
-        padding: 0rem 1rem;
+        //padding: 0rem 1rem;
       }
     }
 
@@ -731,7 +746,7 @@ footer{
 
   @include media-breakpoint-down(sm) {
     background-color: black;
-    height: 1200px;
+    //height: 1200px;
     .nav-item{
       font-family: 'Sofia Pro' !important;
       
@@ -747,7 +762,7 @@ footer{
 
     .nav-link{
       color: white !important;
-      padding: 5vw;
+      //padding: 5vw;
     }
     .nav-register{
       margin: 0px 1.25rem 35px 1.25rem;
@@ -1320,7 +1335,7 @@ input[type=email].form-control, input[type=password].form-control
   .nav-link{
     color: #d3d3d3;
     @include  media-breakpoint-between(xl,xs) {
-      padding: .5rem 2rem !important;
+      //padding: .5rem 2rem !important;
     }
   }
   .nav-link.active{
