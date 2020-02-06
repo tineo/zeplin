@@ -137,21 +137,20 @@ class Home extends React.Component {
 </div>
 
 
-<div className="m-auto container-xl align-content-md-between p-0 m-0 ">
+<div className="mx-auto container-xl align-content-md-between p-0 m-0 ">
     <div className="container-xl m-0 p-0">
         <div className="row m-0 p-0">
-            <div className="col-12">
+            <div className="col-10 offset-1">
                 <h1 className="py-50">blog.</h1>
             </div>
         </div>
+        <div className="container-xl p-0 my-0 mx-auto"  >
       <div className="row m-0 p-0">
           <div id="myCarousel" className="carousel slide w-100" data-ride="carousel">
-              <div className="carousel-inner" role="listbox">
-                  <div className="carousel-item pb-5 active">
                       <div className="row p-0 m-0 your-class">
                         
                         
-                        <div className="post pb-5">
+                        <div className="col-md-3 pb-5">
                           <img src="static/img/home_blog1.jpg" 
                           className="img-fluid" />
                           <div className="px-5 pt-5">
@@ -166,7 +165,7 @@ class Home extends React.Component {
                           </div>
                         </div>  
 
-                        <div className="post pb-5">
+                        <div className="col-md-3 pb-5">
                           <img src="static/img/home_blog2.jpg" 
                           className="img-fluid" />
                           <div className="px-5 pt-5">
@@ -181,7 +180,7 @@ class Home extends React.Component {
                           </div>
                         </div>  
 
-                        <div className="post pb-5">
+                        <div className="col-md-3 pb-5">
                           <img src="static/img/home_blog3.jpg" 
                           className="img-fluid" />
                           <div className="px-5 pt-5">
@@ -197,12 +196,8 @@ class Home extends React.Component {
                         </div>  
 
                       </div>
-                  </div>
-                  
-                  
-              </div>
           </div>
-      </div>
+      </div></div>
       <div className="row">
           <div className="col-12">
               <a className="carousel-control-prev text-dark" href="#myCarousel" role="button" data-slide="prev">
